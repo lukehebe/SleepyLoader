@@ -2,6 +2,8 @@
 
 This is a basic shellcode loader in C , the main features of this are API resolution by hash (no plaintext API names) , Custom GetProcAddressByHash implementation , Shellcode staging (classic allocate → copy → protect) , Execution via Thread Pool Wait callback (indirect execution) , cleanup
 
+![Demo](demo.gif)
+
 ## Setup Instructions
 
 ```
